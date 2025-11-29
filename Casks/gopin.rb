@@ -3,7 +3,7 @@ cask "gopin" do
   name "gopin"
   desc "Pin versions of go install commands for reproducible builds"
   homepage "https://github.com/nnnkkk7/gopin"
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gopin" do
   on_macos do
     on_intel do
       url "https://github.com/nnnkkk7/gopin/releases/download/v#{version}/gopin_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "d2d431ac2ebce82169b92449a176be15fbdb82676cae579783de7576d54f4a1f"
+      sha256 "638a5acc599c67b7e097e947cbc783acb50fadf64dcaa94e4ffea2c1eb22eb57"
     end
     on_arm do
       url "https://github.com/nnnkkk7/gopin/releases/download/v#{version}/gopin_#{version}_Darwin_arm64.tar.gz"
-      sha256 "fc0c78851dacc7a09cbba5ee8c5a3775b24043afbd5ab8499a0c77b53abc3d4d"
+      sha256 "2e0bcb0e9af671cf692d93a66f8d920ddf771dcae63db2f7c7abefc23720f303"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nnnkkk7/gopin/releases/download/v#{version}/gopin_#{version}_Linux_x86_64.tar.gz"
-      sha256 "9cf63aa3c45cf9bcdb2856d58b8584c9027a681c64c97e617cadb55ef3144eaa"
+      sha256 "d636f76a0dfc68ad89a8b24873d0fa11ba8e279af5a193be79424644949cdb1f"
     end
     on_arm do
       url "https://github.com/nnnkkk7/gopin/releases/download/v#{version}/gopin_#{version}_Linux_arm64.tar.gz"
-      sha256 "bd0ac1c45585c92d6d2e75a69cb762785ab41d3cdbf317c053fc2184e1d57c64"
+      sha256 "c4d95707697588f08ad8ac65b72d3ef51483b1fdfe9630b755685996e4174bb3"
     end
   end
 
