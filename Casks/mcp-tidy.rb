@@ -14,22 +14,22 @@ cask "mcp-tidy" do
   on_macos do
     on_intel do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "68756011b7c1cef0f573ba73abacc446128b600098ebe58b36e5d2916f4a2a52"
+      sha256 "985797b5da89b0bb68cabc521e7adbce3fbe24f74e0dbcb30ac478f1ee77f35d"
     end
     on_arm do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Darwin_arm64.tar.gz"
-      sha256 "db49f22bcbc096e0b53cb1803cf9d6afc13c46d6970e0b26235737a3fa47bc91"
+      sha256 "76a6d0a0fb897747302fadedddcc4358cce75bb4a72b3f8c116439d3aa100c5b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Linux_x86_64.tar.gz"
-      sha256 "021a454f0c88e72f957419a6b755c54b6ec54d554dac00e49d10654b9e002a66"
+      sha256 "0fa5f3e96ac5c6ddc3dbb81714032d026506f9cc3d3c09e79713c16524c48f85"
     end
     on_arm do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Linux_arm64.tar.gz"
-      sha256 "972920b0f87742f8950c3166c4e5e0c2ca5b83d7700c5cf1160a4896979ecdac"
+      sha256 "e8edfe28fc37a96366839145091baa1885588f24335a4c7198cca49bb9198a75"
     end
   end
 
