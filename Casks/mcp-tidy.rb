@@ -3,7 +3,7 @@ cask "mcp-tidy" do
   name "mcp-tidy"
   desc "Visualize and manage MCP server usage in Claude Code"
   homepage "https://github.com/nnnkkk7/mcp-tidy"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mcp-tidy" do
   on_macos do
     on_intel do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "65e6856d7e337ae6b392b8824adc1738cf6b8986bf6cd16dfaa1c58612c4c0bb"
+      sha256 "bf8ef70d8dd6472b01705d36942167bf896dbe62fa3c49fc3200ca2491742abc"
     end
     on_arm do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Darwin_arm64.tar.gz"
-      sha256 "59519ee5c06dca163932992b82f5d40ea3c8769e603ed2e1ec8b2bc2ead039e6"
+      sha256 "f5a9d5216b0645f2580707af5371a3ebfa2964e512ef6b55d966c72b2e752335"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Linux_x86_64.tar.gz"
-      sha256 "73986ad95fe215e84b39470c62bdb4a81eeac00a1f7eb3c2022252df9c246072"
+      sha256 "10c5e96c5186745d0a78af4fea07fe134795e69ccf01109eb4bf531a9cba0252"
     end
     on_arm do
       url "https://github.com/nnnkkk7/mcp-tidy/releases/download/v#{version}/mcp-tidy_#{version}_Linux_arm64.tar.gz"
-      sha256 "04a0f47eae368a005a885ce849b8c50cd6260761c0e575227d245fb88032935c"
+      sha256 "eddecf72c19c607c291d089f8b88ca5c0dfb0620d84dc59216ea6efdee9857cb"
     end
   end
 
