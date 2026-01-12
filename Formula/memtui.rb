@@ -5,21 +5,21 @@
 class Memtui < Formula
   desc "A TUI to visualize and manage Memcached"
   homepage "https://github.com/nnnkkk7/memtui"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.5/memtui_0.0.5_Darwin_x86_64.tar.gz"
-      sha256 "5b117685ee5d23eeb14f537d66b8be882d8ad76ddbf5ae95390d0cfb91d9373a"
+      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.6/memtui_0.0.6_Darwin_x86_64.tar.gz"
+      sha256 "fd8819f8b8524cde76f5dca4057bee3578b8b956452a376f270e271d3945d170"
 
       def install
         bin.install "memtui"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.5/memtui_0.0.5_Darwin_arm64.tar.gz"
-      sha256 "65f272ce7e15fb23d40a63a77e219df57e4c8f23dd7f455e653a43264e20c1d4"
+      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.6/memtui_0.0.6_Darwin_arm64.tar.gz"
+      sha256 "bf2c03a81794152b67aeafd6f6064f0e4df2a42c0bf4a9343795d9acce5c79d7"
 
       def install
         bin.install "memtui"
@@ -29,15 +29,15 @@ class Memtui < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.5/memtui_0.0.5_Linux_x86_64.tar.gz"
-      sha256 "0b1eab54db27518ebc82e5e8cb97246217889cc174fac940829ed6941845305f"
+      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.6/memtui_0.0.6_Linux_x86_64.tar.gz"
+      sha256 "925a692394e046314937a2968e84c3ff62ed9b3700b66ac275df616a28f7b461"
       def install
         bin.install "memtui"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.5/memtui_0.0.5_Linux_arm64.tar.gz"
-      sha256 "754fb9ad351dcb70aa8fcf5b91aaf676cc51656f978f5118b775394ee399ab0e"
+      url "https://github.com/nnnkkk7/memtui/releases/download/v0.0.6/memtui_0.0.6_Linux_arm64.tar.gz"
+      sha256 "e6af68a0035ed1458755686a86b4e5e79978215bff524a1e8029b293f7f6c6f3"
       def install
         bin.install "memtui"
       end
