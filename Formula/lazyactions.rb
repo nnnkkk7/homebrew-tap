@@ -5,21 +5,21 @@
 class Lazyactions < Formula
   desc "A TUI to visualize and manage GitHub Actions"
   homepage "https://github.com/nnnkkk7/lazyactions"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.3/lazyactions_0.0.3_Darwin_x86_64.tar.gz"
-      sha256 "fd4f981a1d3c0083e1a56c4ba62466a4a5399404c60c285739e478dd46c96f9c"
+      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.4/lazyactions_0.0.4_Darwin_x86_64.tar.gz"
+      sha256 "59af48c239141135851b485c0009ecad9ef94f500843182f65619c5888bfc22f"
 
       def install
         bin.install "lazyactions"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.3/lazyactions_0.0.3_Darwin_arm64.tar.gz"
-      sha256 "f7fb59ba3bb6bf08610d46e0a40548af21132b0f944222f1cfb8fba21509309a"
+      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.4/lazyactions_0.0.4_Darwin_arm64.tar.gz"
+      sha256 "d04a8f101e85deca8de0a192465e97be70979d9181bbcaa55d433149a880b274"
 
       def install
         bin.install "lazyactions"
@@ -29,15 +29,15 @@ class Lazyactions < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.3/lazyactions_0.0.3_Linux_x86_64.tar.gz"
-      sha256 "946a2bc4105890f1f7ac9418aff97cedc5110d7e8b057bbb9b85c69dfba42bad"
+      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.4/lazyactions_0.0.4_Linux_x86_64.tar.gz"
+      sha256 "af86315a497cc7b6793d5d574d7486b0d2588dbe0b3cda20f9a99605af087e2f"
       def install
         bin.install "lazyactions"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.3/lazyactions_0.0.3_Linux_arm64.tar.gz"
-      sha256 "758f9391ba0d1647beaf107f439c0139e166f96f2d77e61855f82d04d650881e"
+      url "https://github.com/nnnkkk7/lazyactions/releases/download/v0.0.4/lazyactions_0.0.4_Linux_arm64.tar.gz"
+      sha256 "e1f46459fe76ec2029624c362c974a335721942cb4d0cbb187c212dd98da2d14"
       def install
         bin.install "lazyactions"
       end
