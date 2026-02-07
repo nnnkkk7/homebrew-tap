@@ -5,21 +5,21 @@
 class Twain < Formula
   desc "A fast, lightweight static site generator for Cloudflare Pages"
   homepage "https://github.com/nnnkkk7/twain"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.0/twain_0.1.0_darwin_amd64.tar.gz"
-      sha256 "7c1f5b697715005295179b03f6b8bc6c82d21e939ce5afe88f17230af9538008"
+      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.1/twain_0.1.1_darwin_amd64.tar.gz"
+      sha256 "12944e4e3628bca6f20374db08b859e10a34e162b784b89dd81eb85f191d8391"
 
       def install
         bin.install "twain"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.0/twain_0.1.0_darwin_arm64.tar.gz"
-      sha256 "58b43733113e7327d31cf42f3795e239891aef52f286e7f400521a2e7950512c"
+      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.1/twain_0.1.1_darwin_arm64.tar.gz"
+      sha256 "4172540315b24e7713a216e288e577671d5a80ebfe1d2cce0656aeac49fc230a"
 
       def install
         bin.install "twain"
@@ -29,15 +29,15 @@ class Twain < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.0/twain_0.1.0_linux_amd64.tar.gz"
-      sha256 "b23c1d23c66a75e00510c0ad5d7dd600480820cee89fd3c4fe351c5a99cfda5e"
+      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.1/twain_0.1.1_linux_amd64.tar.gz"
+      sha256 "e88dfaa03e6117d6d71ce4ff23c95c7711d0cec56679ef7a6f7ccc8d34d88196"
       def install
         bin.install "twain"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.0/twain_0.1.0_linux_arm64.tar.gz"
-      sha256 "e03f07739452235680ddfdaa9e497a223a1736cd0f2cb6a1d80fba61501675a9"
+      url "https://github.com/nnnkkk7/twain/releases/download/v0.1.1/twain_0.1.1_linux_arm64.tar.gz"
+      sha256 "b13aa300c722208a674985493040c22234b9109b771f2cc81321975ca5634b07"
       def install
         bin.install "twain"
       end
